@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;500&display=swap');
+:root{
+    --primary: #fdfbfd;
+    --secondary: #730073;
+    --padding: 8%;
+    --main-font:'Fira Sans', sans-serif;
+}
+
+body {
+    background-image: url("Images/wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 var(--padding);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+.nav-bar-elements{
+    display: flex;
+    margin: 0 0 0 0;
+    
+}
+
+.nav-bar-element a {
+    text-decoration: none;
+    color: var(--primary);
+    font-family: var(--main-font);
+    font-weight: 400;
+    transition: color 0.3s ease;
+  }
+  
+.nav-bar-element {
+    margin: auto 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.nav-bar-element a:hover {
+    color: var(--secondary);
+  }
+
+h2 {
+    color: var(--primary);
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+
+.main-button:hover{
+    color: var(--primary);
+    background: transparent;
+}
+.Quotes-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(rgba(128, 0, 128, 0), rgba(128, 0, 128, 0.1)), linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.main-button {
+    border: 1px solid var(--primary);
+    background-color: white;
+    color: lightpink;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    margin-top: auto;
+    transition: color 0.2s ease;
+    border-radius: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;500&display=swap');
+:root{
+    --primary: #fdfbfd;
+    --secondary: #730073;
+    --padding: 8%;
+    --main-font:'Fira Sans', sans-serif;
+}
+
+body {
+    background-image: url("Images/wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 var(--padding);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+.nav-bar-elements{
+    display: flex;
+    margin: 0 0 0 0;
+    
+}
+
+.nav-bar-element a {
+    text-decoration: none;
+    color: var(--primary);
+    font-family: var(--main-font);
+    font-weight: 400;
+    transition: color 0.3s ease;
+  }
+  
+.nav-bar-element {
+    margin: auto 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.nav-bar-element a:hover {
+    color: var(--secondary);
+  }
+
+h2 {
+    color: var(--primary);
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+
+.Quotes {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.main-button:hover{
+    color: var(--primary);
+    background: transparent;
+}
+.Quotes-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(rgba(128, 0, 128, 0), rgba(128, 0, 128, 0.1)), linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.main-button {
+    border: 1px solid var(--primary);
+    background-color: white;
+    color: lightpink;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    transition: color 0.2s ease;
+    border-radius: 20px;
+}
+
+.Quotes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+#quoteParagraph {
+  color: white;
+  text-shadow: -1px -1px 0 lightpink, 1px -1px 0 lightpink, -1px 1px 0 lightpink, 1px 1px 0 lightpink;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--main-font);
+}
+
+#Favorite-Quote-button img {
+  transition: transform 0.3s ease-in-out;
+}
+
+#Favorite-Quote-button:hover img {
+  animation: shine 1.5s infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  50% {
+    transform: scale(1.2);
+    filter: brightness(200%);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+}
