@@ -13,6 +13,10 @@ const quotes = [
     author: "Joshua Graham"
     },
     {
+    content: "I have no enemies.",
+    author: "Thorfinn - Vinland Saga"
+    },
+    {
     content: "What is better? To be born good or to overcome your evil nature through great effort?",
     author: "Paarthunax - Skyrim"
     },
